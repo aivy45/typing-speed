@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400;1,500&family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300;1,400;1,800&family=Poppins:ital,wght@1,200;1,400&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.mainDiv{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(90deg, rgb(255, 41, 17) 0%, rgb(199, 178, 178) 100%);
+}
+
+.centerDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ecf0f1;
+    text-shadow: 1px 2px 3px #b9297b;
+    font-size: 2.1rem;
+}
+h2{
+    text-align: center;
+}
+textarea{
+    background-color: #444;
+    box-shadow: 0 0 1px rgba(0,0,0,0.2);
+    border-radius: 10px 10px 0 0;
+    border: 20px solid #382c31df;
+    color: #fff;
+    font-size: 1.3rem;
+    padding:10px;
+}
+
+.mainbtn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 5px solid #1d374d;
+    background: #ecf0f1;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.mainbtn:focus{
+    color: grey;
+}
